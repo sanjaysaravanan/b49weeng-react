@@ -1,10 +1,10 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 // default import
-import utilities from './utils.js';
+// import utilities from './utils.js';
 
 // normal import using alias
-import * as utils from './utils.js';
+// import * as utils from './utils.js';
 // normal import using destructure
 // import { options, details } from './utils.js';
 import './App.css'
