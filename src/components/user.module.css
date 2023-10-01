@@ -1,0 +1,11 @@
+.imageContainer {
+  border: 1px solid #000;
+  margin: 8px;
+  width: 250px;
+  padding: 8px;
+}
+
+.imageContainer img {
+  height: 250px;
+  width: 100%;
+}
