@@ -7,14 +7,15 @@ import CounterPage from './CounterPage.jsx';
 import Products from './Products.jsx';
 import ReusablePage from './ReusablePage.jsx';
 import LifeCycle from './LifeCycle.jsx';
+import LifeCycleTwo from './LifeCycleTwo.jsx';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Products />
-    {/* <App /> */}
-    {/* <UsersPage /> */}
-    {/* <CounterPage /> */}
-    {/* <ReusablePage /> */}
-    {/* <LifeCycle /> */}
-  </React.StrictMode>,
+ReactDOM.createRoot(document.getElementById('root')).render(<LifeCycle />
+  // <React.StrictMode>
+  //   {/* <Products /> */}
+  //   {/* <App /> */}
+  //   {/* <UsersPage /> */}
+  //   {/* <CounterPage /> */}
+  //   {/* <ReusablePage /> */}
+  //   <LifeCycle />
+  // </React.StrictMode>,
 )
