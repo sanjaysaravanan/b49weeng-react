@@ -25,6 +25,9 @@ const LifeCycleTwo = () => {
       setLoadFox(false);
     }
 
+    // this is very dangerous because we are sort of doing recursive loading because we change the dependent value inside updation
+    // setLoadFox(!loadFox);
+      
     // Updating Phase, we re-render the image using a state variable loadFox as dependency
   }, [loadFox]);
 

@@ -7,7 +7,7 @@ const LifeCycle = () => {
   const [intervalId, setIntervalId] = useState(null);
 
   const intervalCallback = () => {
-    setCount(count => count + 1);
+    setCount((count) => count + 1); // avoid async behavior on  multiple setState actions, safety one to prefer
     console.log(count);
   } 
 
@@ -42,8 +42,11 @@ const LifeCycle = () => {
     }
   }
 
+
   useEffect(() => {
+
     startInterval();
+    
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
