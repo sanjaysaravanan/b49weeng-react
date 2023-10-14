@@ -17,7 +17,7 @@ const PopUp = ({ handleSubmit, color }) => {
   }, []);
 
   const formSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     handleSubmit({
       email,
