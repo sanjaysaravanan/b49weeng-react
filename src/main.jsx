@@ -9,15 +9,17 @@ import ReusablePage from "./ReusablePage.jsx";
 import LifeCycle from "./LifeCycle.jsx";
 import LifeCycleTwo from "./LifeCycleTwo.jsx";
 import LifeCycleThree from "./LifeCycle3.jsx";
+import GrandParent from "./PropsDrilling.jsx";
+import Context from "./Context.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <LifeCycleThree />
+  <Context />
   // <React.StrictMode>
   //   {/* <Products /> */}
   //   {/* <App /> */}
   //   {/* <UsersPage /> */}
   //   {/* <CounterPage /> */}
   //   {/* <ReusablePage /> */}
-  //   <LifeCycle />
+  // <LifeCycle />
   // </React.StrictMode>,
 );
