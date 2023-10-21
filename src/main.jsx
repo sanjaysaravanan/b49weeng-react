@@ -11,9 +11,11 @@ import LifeCycleTwo from "./LifeCycleTwo.jsx";
 import LifeCycleThree from "./LifeCycle3.jsx";
 import GrandParent from "./PropsDrilling.jsx";
 import Context from "./Context.jsx";
+import RefConcept from "./RefConcept.jsx";
+import Concept from "./UseReducer.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <Context />
+  <Concept />
   // <React.StrictMode>
   //   {/* <Products /> */}
   //   {/* <App /> */}
