@@ -13,9 +13,13 @@ import GrandParent from "./PropsDrilling.jsx";
 import Context from "./Context.jsx";
 import RefConcept from "./RefConcept.jsx";
 import Concept from "./UseReducer.jsx";
+import TicTacToe from "./components/TicTacToe.jsx";
+import CrudOperations from "./CrudOperations.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <Concept />
+  <CrudOperations />
+  // <TicTacToe />
+  // <Concept />
   // <React.StrictMode>
   //   {/* <Products /> */}
   //   {/* <App /> */}

@@ -47,7 +47,6 @@ const reducer = (position, { direction }) => {
         ...position,
         left: position.left - 300,
       };
-
     case "right":
       return {
         ...position,
@@ -186,7 +185,7 @@ const Concept = () => {
         {moves.map((move) => (
           <button
             key={move}
-            onClick={() => handleMove(move)}
+            onClick={() => dispatch({ direction: move })}
             style={{
               margin: "0 16px",
               fontSize: "24px",

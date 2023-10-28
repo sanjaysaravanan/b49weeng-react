@@ -1,0 +1,33 @@
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: aqua;
+  margin: 16px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.itemBox {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 128px;
+}
+
+.line {
+  background-color: #000;
+  position: absolute;
+}
+
+.vertical {
+  height: 600px;
+  width: 10px;
+}
+
+.horizontal {
+  height: 10px;
+  width: 600px;
+}
